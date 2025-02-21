@@ -14,8 +14,37 @@
   }
 }
 
+.padding-x{
+  @apply px-2 sm:px-4 md:px-10 lg:px-16
+}
+
+.flex-center{
+  @apply flex justify-center items-center;
+}
+.flex-between{
+  @apply flex justify-between items-center;
+}
+.flex-evenly{
+  @apply flex justify-evenly items-center;
+}
+.flex-center-col{
+  @apply flex flex-col justify-center items-center;
+}
+
+.nav-link-animation{
+  @apply relative text-black after:absolute after:left-1/2 after:bottom-0 after:h-[2px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full hover:after:left-0;
+}
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #F5F5F5;
+  font-family:  Helvetica, sans-serif;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
