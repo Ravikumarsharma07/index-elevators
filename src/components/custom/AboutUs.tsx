@@ -3,7 +3,7 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <section className="padding-x bg-background py-20 flex-center-col gap-12 md:gap-16">
+    <section id="about" className="padding-x bg-background py-20 flex-center-col gap-12 md:gap-16">
       <h2 className="text-secondary text-3xl font-semibold">About Us</h2>
       <section className="grid grid-cols-1 md:grid-cols-2 justify-items-center gap-10">
         <div className="max-md:text-center">
