@@ -18,6 +18,9 @@
   @apply px-2 sm:px-4 md:px-10 lg:px-16
 }
 
+.flex-start{
+  @apply flex justify-start items-center;
+}
 .flex-center{
   @apply flex justify-center items-center;
 }

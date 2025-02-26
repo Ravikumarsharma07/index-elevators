@@ -26,7 +26,7 @@ const HeroSectionHome = () => {
         quality={100}
         unoptimized
           src="/index-logo.png"
-          alt="hero"
+          alt="company logo"
           className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] rounded-full object-fill"
         />
       </div>

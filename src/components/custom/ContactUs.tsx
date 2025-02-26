@@ -19,6 +19,9 @@ const contacts = [
     }
 ] 
 
+const date = new Date()
+const currentYear = date.getFullYear()
+
 const ContactUs = () => {
   return (
     <section
@@ -40,7 +43,7 @@ const ContactUs = () => {
         ))}
     </section>
     <p className="text-white/60 font-sans mt-20">
-        © 2025 Index Elevators. All rights reserved
+        © {currentYear} Index Elevators. All rights reserved
       </p>
 
     </section>
