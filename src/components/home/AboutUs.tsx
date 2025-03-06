@@ -39,7 +39,7 @@ const AboutUs = () => {
             height={300}
             width={400}
             className="rounded-xl w-[300px] md:w-[300px] lg:w-[400px] opacity-90"
-            src="/about.jpg"
+            src="/index-logo.png"
             alt="hoist"
           />
         </div>

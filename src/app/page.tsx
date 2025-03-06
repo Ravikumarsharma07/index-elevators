@@ -1,10 +1,10 @@
-import AboutUs from "@/components/custom/AboutUs";
-import ChatWithUs from "@/components/custom/ChatWithUs";
-import ContactUs from "@/components/custom/ContactUs";
-import HeroSectionHome from "@/components/custom/Hero";
-import NavBar from "@/components/custom/NavBar";
-import Products from "@/components/custom/Products";
-import Services from "@/components/custom/Services";
+import AboutUs from "@/components/home/AboutUs";
+import ChatWithUs from "@/components/home/ChatWithUs";
+import ContactUs from "@/components/home/ContactUs";
+import HeroSectionHome from "@/components/home/Hero";
+import NavBar from "@/components/home/NavBar";
+import Products from "@/components/home/Products";
+import Services from "@/components/home/Services";
 
 
 
@@ -15,9 +15,9 @@ export default function Home() {
       <ChatWithUs />
       <NavBar />
       <HeroSectionHome />
+      <AboutUs />
       <Products/>
       <Services/>
-      <AboutUs />
       <ContactUs />
     </>
   );

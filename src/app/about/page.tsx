@@ -3,7 +3,7 @@ import Header from '@/components/about/Header'
 import Hero from '@/components/about/Hero'
 import OurMachines from '@/components/about/OurMachines'
 import OurMission from '@/components/about/OurMission'
-import ContactUs from '@/components/custom/ContactUs'
+import ContactUs from '@/components/home/ContactUs'
 import React from 'react'
 
 const Page = () => {

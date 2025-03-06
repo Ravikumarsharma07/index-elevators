@@ -1,5 +1,6 @@
 "use client"
 import { Forklift, MenuIcon, PhoneCall, X } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
@@ -8,8 +9,9 @@ const NavBar = () => {
 
   return (
     <header className="fixed top-0 h-[80px] z-50 w-full px-2 md:px-10 lg:px-16 flex-between border-b border-border bg-background/30 backdrop-blur-lg">
-      <div className="flex-center">
-        <Forklift strokeWidth={1.4} className=" text-secondary w-11 h-11 md:h-16 md:w-16" />
+      <div className="flex-center gap-">
+      <Forklift strokeWidth={1.4} className=" text-secondary w-11 h-11 md:h-16 md:w-16" />
+        {/* <Image src="/index-logo.png" alt="company logo" className="w-[70px] h-[70px] shadow-2xl rounded-full" width={50} height={50} /> */}
         <h1
           className={` text-primary text-[23px] md:text-[30px] leading-[22px] md:leading-[30px] font-semibold flex flex-col `}
         >
@@ -22,11 +24,11 @@ const NavBar = () => {
         <Link href="#home" className="nav-link-animation">
           Home
         </Link>
-        <Link href="#products" className="nav-link-animation">
-          Products
-        </Link>
         <Link href="#about" className="nav-link-animation">
           About Us
+        </Link>
+        <Link href="#products" className="nav-link-animation">
+          Products
         </Link>
         <Link href="#contact" className="nav-link-animation">
           Contact Us
@@ -43,11 +45,11 @@ const NavBar = () => {
           <Link onClick={() => setIsVisible(!isVisible)} href="#home" className="nav-link-animation">
             Home
           </Link>
-          <Link onClick={() => setIsVisible(!isVisible)} href="/#products" className="nav-link-animation">
-            Products
-          </Link>
           <Link onClick={() => setIsVisible(!isVisible)} href="/#about" className="nav-link-animation">
             About Us
+          </Link>
+          <Link onClick={() => setIsVisible(!isVisible)} href="/#products" className="nav-link-animation">
+            Products
           </Link>
           <Link onClick={() => setIsVisible(!isVisible)} href="/#contact" className="nav-link-animation">
             Contact Us
