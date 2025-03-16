@@ -1,15 +1,15 @@
 interface Product{
-  name: String,
-  description: String,
-  liftingCapacity: String,
-  specifications: String[],
-  imageUrl:String 
+  name: string,
+  description: string,
+  liftingCapacity: string,
+  specifications: string[],
+  imageUrl:string 
 }
 
 export interface Category {
     id: number,
     name: string,
-    description: String,
-    imageUrl:String,
+    description: string,
+    imageUrl:string,
     products: Product[];
 }

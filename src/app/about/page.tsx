@@ -1,7 +1,6 @@
 import BackBtn from '@/components/about/BackBtn'
 import Header from '@/components/about/Header'
 import Hero from '@/components/about/Hero'
-import OurMachines from '@/components/about/OurMachines'
 import OurMission from '@/components/about/OurMission'
 import WhoWeAre from '@/components/about/WhoWeAre'
 import WhyUs from '@/components/about/WhyUs'
@@ -17,7 +16,6 @@ const Page = () => {
       <OurMission />
       <WhoWeAre/>
       <WhyUs/>
-      {/* <OurMachines /> */}
       <ContactUs />
     </main>
   )
