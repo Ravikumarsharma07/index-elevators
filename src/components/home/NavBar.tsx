@@ -56,7 +56,7 @@ const NavBar = () => {
         </nav>
 
       <div className="flex-center gap-4">
-        <a href="tel:+918920878094">
+        <a href="tel:+917827881632">
           <PhoneCall className="text-4xl text-secondary w-7 h-[1.7rem] md:h-10 md:w-20 hover:rotate-[12deg]" />
         </a>
       <MenuIcon

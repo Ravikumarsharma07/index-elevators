@@ -50,6 +50,7 @@ const HeroSectionHome = () => {
     >
       <Image
         unoptimized
+        quality={100}
         src={currentImage}
         key={imageIndex}
         alt="company's workshop"

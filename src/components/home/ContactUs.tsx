@@ -1,21 +1,22 @@
 import { LocateFixed, Mail, Phone } from 'lucide-react'
+import Link from 'next/link'
 import React from 'react'
 
 const contacts = [
     {
         icon:<Phone className='text-primary h-max w-16 p-3'/>,
         title:"Phone",
-        description:"+91 8920878094"
+        description:<><Link href="tel:+917827881632">+91 7827881632</Link><Link href="tel:+918527988313">/ +91 8527988313</Link></>,
     },
     {
         icon:<Mail className='text-primary h-max w-16 p-3'/>,
         title:"Email",
-        description:"index-elevators@gmail.com"
+        description:<Link href="mailto:indexelevators1313@gmail.com">indexelevators1313@gmail.com</Link>,
     },
     {
         icon:<LocateFixed className='text-primary h-max w-16 p-3'/>,
         title:"Address",
-        description:"Tilak nagar, phase-1"
+        description:"RZ-Q-93, G/F, KH. No. 34/24, Nihal vihar, Nilothi Extn., New Delhi-110041"
     }
 ] 
 
@@ -33,7 +34,7 @@ const ContactUs = () => {
         Get in touch with our expert team
       </p>
 
-    <section className='w-full mt-8 md:mt-16 flex justify-center lg:justify-between gap-10 max-lg:gap-16 flex-wrap'>
+    <section className='w-full mt-8 md:mt-16 grid grid-cols-1 md:grid-cols-3 gap-10 max-lg:gap-16 flex-wrap'>
         {contacts.map((service) => (
             <div key={service.title} className='flex-center-col gap-1 text-white font-sans text-center'>
                 {service.icon}
