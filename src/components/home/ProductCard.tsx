@@ -72,23 +72,22 @@ function ProductCard({ category }: { category: Category }) {
                   <div className="flex-1 space-y-4 ">
                     <div className="flex-between">
                       <div>
-
-                      <h3 className="text-xl font-bold font-serif text-gray-900">
-                        {" "}
-                        {String(index + 1)}. {product.name}
-                      </h3>
-                      <p className="text-primary font-semibold mt-1">
-                        {product.liftingCapacity}
-                      </p>
+                        <h3 className="text-xl font-bold font-serif text-gray-900">
+                          {" "}
+                          {String(index + 1)}. {product.name}
+                        </h3>
+                        <p className="text-primary font-semibold mt-1">
+                          {product.liftingCapacity}
+                        </p>
                       </div>
-                      <Link 
-                      target="_blank" 
-      href={`https://api.whatsapp.com/send/?phone=%2B917827881632&text=Hi+I+am+interested+in+ordering+${product.name}+from+Index+Elevators,+please+send+me+the+latest+price.&type=phone_number&app_absent=0`}
-
+                      <Link
+                        target="_blank"
+                        href={`https://api.whatsapp.com/send/?phone=%2B917827881632&text=Hi+I+am+interested+in+ordering+${product.name}+from+Index+Elevators,+please+send+me+the+latest+price.&type=phone_number&app_absent=0`}
                       >
-                      <button className="bg-orange-500 group hover:bg-orange-600 flex-between text-white text-nowrap md:font-semibold py-2 px-1 md:px-3 max-md:text-[14px] rounded-xl">
-                        Get Price <ChevronRight className="w-4 h-4 md:w-5 md:h-5" />
-                      </button>
+                        <button className="bg-orange-500 group hover:bg-orange-600 flex-between text-white text-nowrap md:font-semibold py-2 px-1 md:px-3 max-md:text-[14px] rounded-xl">
+                          Get Price{" "}
+                          <ChevronRight className="w-4 h-4 md:w-5 md:h-5" />
+                        </button>
                       </Link>
                     </div>
 
