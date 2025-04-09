@@ -4,7 +4,7 @@ const ChatWithUs = () => {
   return (
     <a
       target="_blank"
-      href="https://api.whatsapp.com/send/?phone=%2B918920878094&text=Hi+I+am+interested+in+ordering+from+Index+Elevators.&type=phone_number&app_absent=0"
+      href="https://api.whatsapp.com/send/?phone=%2B917827881632&text=Hi+I+am+interested+in+ordering+from+Index+Elevators.&type=phone_number&app_absent=0"
       className="group fixed z-50 bottom-12 right-8 flex-center bg-green-500 hover:bg-green-600 rounded-full px-2 py-2 hover:gap-2 gap-0 cursor-pointer hover:shadow-2xl transition-all ease-in delay-200 duration-200"
     >
       <svg

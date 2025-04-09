@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Index Elevators | Lifting & Hoisting Solutions – EOT Cranes, Hoists, Winches",
-  description: "Trusted provider of individual winches, hoists, and lifting equipments.",
+  description: "Trusted provider of individual winches, hoists, and lifting equipment. Index Elevator and Index Elevators are your go-to lifting partners.",
   applicationName: "Index Elevators",
   icons: "/index-logo.png",
   robots: "index, follow",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title: "Index Elevators - Lifting & Hoisting Solutions",
     description: "Your trusted partner for reliable lifting and hoisting equipment.",
 
-    url: "https://www.indexelevators.com",
+    url: "https://www.indexelevators.in",
     type: "website",
   },
 };
@@ -38,9 +38,11 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Index Elevators",
-    "url": "https://www.indexelevators.com",
+    "alternateName": "Index Elevator",
+    "url": "https://www.indexelevators.in",
     "description": "Providing top-quality lifting and hoisting solutions including EOT cranes, jib cranes, power winches, and more.",
     "founder": "Gurvinder Singh",
+    "logo": "https://www.indexelevators.in/index-logo.png",
     "sameAs": [
       "https://www.linkedin.com/company/indexelevators",
       "https://www.facebook.com/indexelevators"
@@ -48,6 +50,10 @@ export default function RootLayout({
   };
   return (
     <html lang="en">
+      <head>
+      <meta name="image" content="/index-logo.png" />
+      <meta name="apple-mobile-web-app-title" content="Index Elevators" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
