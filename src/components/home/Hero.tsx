@@ -7,31 +7,31 @@ import React, { useEffect, useState } from "react";
 const images = [
   {
     id: 1,
-    url: "/workshop5.jpg",
+    url: "/workshop-ai.webp",
   },
   {
     id: 2,
-    url: "/about.jpg",
+    url: "/workshop-ai-1.jpg",
   },
+  // {
+  //   id: 3,
+  //   url: "/workshop-ai-2.jpg",
+  // },
   {
-    id: 3,
-    url: "/workshop3.jpg",
-  },
-  {
-    id:4,
-    url:"workshop4.jpg"
+    id:3,
+    url:"/workshop-ai-3.jpg"
   }
 ];
 const HeroSectionHome = () => {
   const [imageIndex, setImageIndex] = useState(0);
-  const [currentImage, setCurrentImage] = useState("/workshop4.jpg");
+  const [currentImage, setCurrentImage] = useState("/workshop-ai-1.jpg");
 
   useEffect(() => {
     const interval = setInterval(() => {
       console.log(imageIndex);
 
-      if (imageIndex == 3) {
-        setImageIndex((prevIndex) => prevIndex - 3);
+      if (imageIndex == 2) {
+        setImageIndex((prevIndex) => prevIndex - 2);
         setCurrentImage(`${images[imageIndex].url}`);
       } else {
         setImageIndex((prevIndex) => prevIndex + 1);
