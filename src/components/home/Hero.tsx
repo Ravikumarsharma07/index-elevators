@@ -28,8 +28,6 @@ const HeroSectionHome = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      console.log(imageIndex);
-
       if (imageIndex == 2) {
         setImageIndex((prevIndex) => prevIndex - 2);
         setCurrentImage(`${images[imageIndex].url}`);

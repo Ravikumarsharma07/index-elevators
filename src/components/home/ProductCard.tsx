@@ -22,7 +22,7 @@ function ProductCard({ category }: { category: Category }) {
             height={100}
             width={150}
             className="w-full h-full rounded-t group-hover:scale-[1.05] object-cover transition-all duration-200"
-            src="/img-placeholder.png"
+            src={category.imageUrl}
             alt={category.name}
           />
         </div>
@@ -48,7 +48,10 @@ function ProductCard({ category }: { category: Category }) {
         </div>
       </div>
 
-      <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
+      {category.form ? (
+        <category.form isDialogOpen={isDialogOpen} setIsDialogOpen={setIsDialogOpen} />
+      ) : (
+        <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
         <DialogContent className="max-w-6xl w-[90%] p-0 m-0 border-none bg-white font-sans rounded-xl">
           <DialogHeader className="p-4 px-6">
             <DialogTitle className="text-xl sm:text-2xl text-start font-bold text-secondary">
@@ -74,7 +77,7 @@ function ProductCard({ category }: { category: Category }) {
                       <div>
                         <h3 className="text-xl font-bold font-serif text-gray-900">
                           {" "}
-                          {String(index + 1)}. {product.name}
+                           {product.name}
                         </h3>
                         <p className="text-primary font-semibold mt-1">
                           {product.liftingCapacity}
@@ -161,6 +164,7 @@ function ProductCard({ category }: { category: Category }) {
                 </div> */}
         </DialogContent>
       </Dialog>
+      )}
     </>
   );
 }
