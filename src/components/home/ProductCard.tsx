@@ -9,6 +9,7 @@ import Link from "next/link";
 
 function ProductCard({ category }: { category: Category }) {
   const [isDialogOpen, setIsDialogOpen] = useState(false);
+  const [isFormOpen, setIsFormOpen] = useState(false);
   return (
     <>
       <div
@@ -48,11 +49,11 @@ function ProductCard({ category }: { category: Category }) {
         </div>
       </div>
 
-      {category.form ? (
+      {/* {category.form ? (
         <category.form isDialogOpen={isDialogOpen} setIsDialogOpen={setIsDialogOpen} />
-      ) : (
-        <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
-        <DialogContent className="max-w-6xl w-[90%] p-0 m-0 border-none bg-white font-sans rounded-xl">
+      ) : ( */}
+      <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
+        <DialogContent className="max-w-6xl w-[90%] max-h[90%] p-0 m-0 border-none bg-white font-sans rounded-xl">
           <DialogHeader className="p-4 px-6">
             <DialogTitle className="text-xl sm:text-2xl text-start font-bold text-secondary">
               {category.name}
@@ -77,21 +78,37 @@ function ProductCard({ category }: { category: Category }) {
                       <div>
                         <h3 className="text-xl font-bold font-serif text-gray-900">
                           {" "}
-                           {product.name}
+                          {product.name}
                         </h3>
                         <p className="text-primary font-semibold mt-1">
                           {product.liftingCapacity}
                         </p>
                       </div>
-                      <Link
-                        target="_blank"
-                        href={`https://api.whatsapp.com/send/?phone=%2B917827881632&text=Hi+I+am+interested+in+ordering+${product.name}+from+Index+Elevators,+please+send+me+the+latest+price.&type=phone_number&app_absent=0`}
-                      >
-                        <button className="bg-orange-500 group hover:bg-orange-600 flex-between text-white text-nowrap md:font-semibold py-2 px-1 md:px-3 max-md:text-[14px] rounded-xl">
+                      {category.form && (
+                        <category.form
+                          isDialogOpen={isFormOpen}
+                          setIsDialogOpen={setIsFormOpen}
+                        />
+                      )}
+                      {category.form ? (
+                        <button
+                          onClick={() => setIsFormOpen(true)}
+                          className="bg-orange-500 group hover:bg-orange-600 flex-between text-white text-nowrap md:font-semibold py-2 px-1 md:px-3 max-md:text-[14px] rounded-xl"
+                        >
                           Get Price{" "}
                           <ChevronRight className="w-4 h-4 md:w-5 md:h-5" />
                         </button>
-                      </Link>
+                      ) : (
+                        <Link
+                          target="_blank"
+                          href={`https://api.whatsapp.com/send/?phone=%2B917827881632&text=Hi+I+am+interested+in+ordering+${product.name}+from+Index+Elevators,+please+send+me+the+latest+price.&type=phone_number&app_absent=0`}
+                        >
+                          <button className="bg-orange-500 group hover:bg-orange-600 flex-between text-white text-nowrap md:font-semibold py-2 px-1 md:px-3 max-md:text-[14px] rounded-xl">
+                            Get Price{" "}
+                            <ChevronRight className="w-4 h-4 md:w-5 md:h-5" />
+                          </button>
+                        </Link>
+                      )}
                     </div>
 
                     <p className="text-gray-600">{product.description}</p>
@@ -164,7 +181,7 @@ function ProductCard({ category }: { category: Category }) {
                 </div> */}
         </DialogContent>
       </Dialog>
-      )}
+      {/* )} */}
     </>
   );
 }
