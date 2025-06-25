@@ -276,11 +276,11 @@ export const categories: Category[] = [
       "Electric Overhead Traveling (EOT) cranes with single girder design for industrial lifting",
     imageUrl: "/eot-crane.png",
     form: EotReqForm,
-    products: [
+     products: [
       {
-        name: "L Type Single Girder crane",
+        name: "EOT Crane – 500 kg",
         description: "Compact EOT crane suitable for lightweight applications",
-        liftingCapacity: "1 Ton",
+        liftingCapacity: "500 kg",
         specifications: [
           "Single girder design",
           "Material: Mild Steel",
@@ -292,51 +292,51 @@ export const categories: Category[] = [
         imageUrl:
           "https://images.unsplash.com/photo-1574095431553-5f38cbf5d3c1?auto=format&fit=crop&q=80&w=800",
       },
-      {
-        name: "MH Type Single Beam crane",
-        description: "Standard EOT crane for medium-load industrial use",
-        liftingCapacity: "2 Ton",
-        specifications: [
-          "Single girder design",
-          "Material: Mild Steel",
-          "Main travel speed: 3 MPM",
-          "Cross travel (CT) speed: 11 MPM",
-          "Long travel (LT) speed: 15 MPM",
-          "Rotation: 360°, 180°, 90°",
-        ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1574095431553-5f38cbf5d3c1?auto=format&fit=crop&q=80&w=800",
-      },
-      {
-        name: "MH Single Crane",
-        description: "Heavy-duty EOT crane for demanding operations",
-        liftingCapacity: "3 Ton",
-        specifications: [
-          "Single girder design",
-          "Material: Mild Steel",
-          "Main travel speed: 3 MPM",
-          "Cross travel (CT) speed: 11 MPM",
-          "Long travel (LT) speed: 15 MPM",
-          "Rotation: 360°, 180°, 90°",
-        ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1574095431553-5f38cbf5d3c1?auto=format&fit=crop&q=80&w=800",
-      },
-      {
-        name: "Portable Gantry Crane",
-        description: "Industrial-grade EOT crane for high-capacity lifting",
-        liftingCapacity: "5 Ton",
-        specifications: [
-          "Single girder design",
-          "Material: Mild Steel",
-          "Main travel speed: 3 MPM",
-          "Cross travel (CT) speed: 11 MPM",
-          "Long travel (LT) speed: 15 MPM",
-          "Rotation: 360°, 180°, 90°",
-        ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1574095431553-5f38cbf5d3c1?auto=format&fit=crop&q=80&w=800",
-      },
+      // {
+      //   name: "EOT Crane – 5 Ton",
+      //   description: "Standard EOT crane for medium-load industrial use",
+      //   liftingCapacity: "5 Ton",
+      //   specifications: [
+      //     "Single girder design",
+      //     "Material: Mild Steel",
+      //     "Main travel speed: 3 MPM",
+      //     "Cross travel (CT) speed: 11 MPM",
+      //     "Long travel (LT) speed: 15 MPM",
+      //     "Rotation: 360°, 180°, 90°",
+      //   ],
+      //   imageUrl:
+      //     "https://images.unsplash.com/photo-1574095431553-5f38cbf5d3c1?auto=format&fit=crop&q=80&w=800",
+      // },
+      // {
+      //   name: "EOT Crane – 10 Ton",
+      //   description: "Heavy-duty EOT crane for demanding operations",
+      //   liftingCapacity: "10 Ton",
+      //   specifications: [
+      //     "Single girder design",
+      //     "Material: Mild Steel",
+      //     "Main travel speed: 3 MPM",
+      //     "Cross travel (CT) speed: 11 MPM",
+      //     "Long travel (LT) speed: 15 MPM",
+      //     "Rotation: 360°, 180°, 90°",
+      //   ],
+      //   imageUrl:
+      //     "https://images.unsplash.com/photo-1574095431553-5f38cbf5d3c1?auto=format&fit=crop&q=80&w=800",
+      // },
+      // {
+      //   name: "EOT Crane – 15 Ton",
+      //   description: "Industrial-grade EOT crane for high-capacity lifting",
+      //   liftingCapacity: "15 Ton",
+      //   specifications: [
+      //     "Single girder design",
+      //     "Material: Mild Steel",
+      //     "Main travel speed: 3 MPM",
+      //     "Cross travel (CT) speed: 11 MPM",
+      //     "Long travel (LT) speed: 15 MPM",
+      //     "Rotation: 360°, 180°, 90°",
+      //   ],
+      //   imageUrl:
+      //     "https://images.unsplash.com/photo-1574095431553-5f38cbf5d3c1?auto=format&fit=crop&q=80&w=800",
+      // },
       // {
       //   name: "EOT Crane – 20 Ton",
       //   description: "High-performance EOT crane for heavy industrial use",
@@ -691,65 +691,65 @@ export const categories: Category[] = [
     form: GantryReqForm,
     products: [
       {
-        name: "Portable Gantry Crane",
-        description: "Mobile and flexible gantry crane solution",
-        liftingCapacity: "500 kg to 10 Ton",
+        name: "L Type Single Girder crane",
+        description: "Compact EOT crane suitable for lightweight applications",
+        liftingCapacity: "1 Ton",
         specifications: [
-          "Span: 6 meters",
-          "Lifting Height: 6 meters",
-          "Electric wire hoist mechanism",
+          "Single girder design",
+          "Material: Mild Steel",
+          "Main travel speed: 3 MPM",
+          "Cross travel (CT) speed: 11 MPM",
+          "Long travel (LT) speed: 15 MPM",
+          "Rotation: 360°, 180°, 90°",
         ],
         imageUrl:
-          "https://images.unsplash.com/photo-1563655236477-de5e8a9a65fe?auto=format&fit=crop&q=80&w=800",
+          "https://images.unsplash.com/photo-1574095431553-5f38cbf5d3c1?auto=format&fit=crop&q=80&w=800",
       },
-      // {
-      //   name: "L Type Single Girder Gantry Crane",
-      //   description: "Robust design for heavy-duty lifting",
-      //   liftingCapacity: "500 kg to 10 Ton",
-      //   specifications: [
-      //     "Span: 6 meters",
-      //     "Lifting Height: 6 meters",
-      //     "Electric wire hoist mechanism",
-      //   ],
-      //   imageUrl:
-      //     "https://images.unsplash.com/photo-1563655236477-de5e8a9a65fe?auto=format&fit=crop&q=80&w=800",
-      // },
-      // {
-      //   name: "MH Type Single Beam Gantry Crane",
-      //   description: "Standard single-beam gantry crane for industrial use",
-      //   liftingCapacity: "500 kg to 10 Ton",
-      //   specifications: [
-      //     "Span: 6 meters",
-      //     "Lifting Height: 6 meters",
-      //     "Electric wire hoist mechanism",
-      //   ],
-      //   imageUrl:
-      //     "https://images.unsplash.com/photo-1563655236477-de5e8a9a65fe?auto=format&fit=crop&q=80&w=800",
-      // },
-      // {
-      //   name: "MH Single Gantry Crane",
-      //   description: "Efficient and compact gantry crane design",
-      //   liftingCapacity: "500 kg to 10 Ton",
-      //   specifications: [
-      //     "Span: 6 meters",
-      //     "Lifting Height: 6 meters",
-      //     "Electric wire hoist mechanism",
-      //   ],
-      //   imageUrl:
-      //     "https://images.unsplash.com/photo-1563655236477-de5e8a9a65fe?auto=format&fit=crop&q=80&w=800",
-      // },
-      // {
-      //   name: "MHB Type Semi Gantry Crane",
-      //   description: "Semi-gantry crane suitable for specialized spaces",
-      //   liftingCapacity: "500 kg to 10 Ton",
-      //   specifications: [
-      //     "Span: 6 meters",
-      //     "Lifting Height: 6 meters",
-      //     "Electric wire hoist mechanism",
-      //   ],
-      //   imageUrl:
-      //     "https://images.unsplash.com/photo-1563655236477-de5e8a9a65fe?auto=format&fit=crop&q=80&w=800",
-      // },
+      {
+        name: "MH Type Single Beam crane",
+        description: "Standard EOT crane for medium-load industrial use",
+        liftingCapacity: "2 Ton",
+        specifications: [
+          "Single girder design",
+          "Material: Mild Steel",
+          "Main travel speed: 3 MPM",
+          "Cross travel (CT) speed: 11 MPM",
+          "Long travel (LT) speed: 15 MPM",
+          "Rotation: 360°, 180°, 90°",
+        ],
+        imageUrl:
+          "https://images.unsplash.com/photo-1574095431553-5f38cbf5d3c1?auto=format&fit=crop&q=80&w=800",
+      },
+      {
+        name: "MH Single Crane",
+        description: "Heavy-duty EOT crane for demanding operations",
+        liftingCapacity: "3 Ton",
+        specifications: [
+          "Single girder design",
+          "Material: Mild Steel",
+          "Main travel speed: 3 MPM",
+          "Cross travel (CT) speed: 11 MPM",
+          "Long travel (LT) speed: 15 MPM",
+          "Rotation: 360°, 180°, 90°",
+        ],
+        imageUrl:
+          "https://images.unsplash.com/photo-1574095431553-5f38cbf5d3c1?auto=format&fit=crop&q=80&w=800",
+      },
+      {
+        name: "Portable Gantry Crane",
+        description: "Industrial-grade EOT crane for high-capacity lifting",
+        liftingCapacity: "5 Ton",
+        specifications: [
+          "Single girder design",
+          "Material: Mild Steel",
+          "Main travel speed: 3 MPM",
+          "Cross travel (CT) speed: 11 MPM",
+          "Long travel (LT) speed: 15 MPM",
+          "Rotation: 360°, 180°, 90°",
+        ],
+        imageUrl:
+          "https://images.unsplash.com/photo-1574095431553-5f38cbf5d3c1?auto=format&fit=crop&q=80&w=800",
+      },
     ],
   },
   {
