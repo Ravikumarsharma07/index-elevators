@@ -1,6 +1,5 @@
 import { Category } from "@/lib/types";
 import EotReqForm from "@/components/home/EotReqForm";
-import GantryReqForm from "@/components/home/GantryReqForm";
 import PowerWinchReqForm from "@/components/home/PowerWinchReqForm";
 export const categories: Category[] = [
   {
@@ -270,105 +269,58 @@ export const categories: Category[] = [
     ],
   },
   {
-    id: 6,
-    name: "EOT Cranes",
-    description:
-      "Electric Overhead Traveling (EOT) cranes with single girder design for industrial lifting",
-    imageUrl: "/eot-crane.png",
-    form: EotReqForm,
-     products: [
-      {
-        name: "EOT Crane – 500 kg",
-        description: "Compact EOT crane suitable for lightweight applications",
-        liftingCapacity: "500 kg",
-        specifications: [
-          "Single girder design",
-          "Material: Mild Steel",
-          "Main travel speed: 3 MPM",
-          "Cross travel (CT) speed: 11 MPM",
-          "Long travel (LT) speed: 15 MPM",
-          "Rotation: 360°, 180°, 90°",
-        ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1574095431553-5f38cbf5d3c1?auto=format&fit=crop&q=80&w=800",
-      },
-      // {
-      //   name: "EOT Crane – 5 Ton",
-      //   description: "Standard EOT crane for medium-load industrial use",
-      //   liftingCapacity: "5 Ton",
-      //   specifications: [
-      //     "Single girder design",
-      //     "Material: Mild Steel",
-      //     "Main travel speed: 3 MPM",
-      //     "Cross travel (CT) speed: 11 MPM",
-      //     "Long travel (LT) speed: 15 MPM",
-      //     "Rotation: 360°, 180°, 90°",
-      //   ],
-      //   imageUrl:
-      //     "https://images.unsplash.com/photo-1574095431553-5f38cbf5d3c1?auto=format&fit=crop&q=80&w=800",
-      // },
-      // {
-      //   name: "EOT Crane – 10 Ton",
-      //   description: "Heavy-duty EOT crane for demanding operations",
-      //   liftingCapacity: "10 Ton",
-      //   specifications: [
-      //     "Single girder design",
-      //     "Material: Mild Steel",
-      //     "Main travel speed: 3 MPM",
-      //     "Cross travel (CT) speed: 11 MPM",
-      //     "Long travel (LT) speed: 15 MPM",
-      //     "Rotation: 360°, 180°, 90°",
-      //   ],
-      //   imageUrl:
-      //     "https://images.unsplash.com/photo-1574095431553-5f38cbf5d3c1?auto=format&fit=crop&q=80&w=800",
-      // },
-      // {
-      //   name: "EOT Crane – 15 Ton",
-      //   description: "Industrial-grade EOT crane for high-capacity lifting",
-      //   liftingCapacity: "15 Ton",
-      //   specifications: [
-      //     "Single girder design",
-      //     "Material: Mild Steel",
-      //     "Main travel speed: 3 MPM",
-      //     "Cross travel (CT) speed: 11 MPM",
-      //     "Long travel (LT) speed: 15 MPM",
-      //     "Rotation: 360°, 180°, 90°",
-      //   ],
-      //   imageUrl:
-      //     "https://images.unsplash.com/photo-1574095431553-5f38cbf5d3c1?auto=format&fit=crop&q=80&w=800",
-      // },
-      // {
-      //   name: "EOT Crane – 20 Ton",
-      //   description: "High-performance EOT crane for heavy industrial use",
-      //   liftingCapacity: "20 Ton",
-      //   specifications: [
-      //     "Single girder design",
-      //     "Material: Mild Steel",
-      //     "Main travel speed: 3 MPM",
-      //     "Cross travel (CT) speed: 11 MPM",
-      //     "Long travel (LT) speed: 15 MPM",
-      //     "Rotation: 360°, 180°, 90°",
-      //   ],
-      //   imageUrl:
-      //     "https://images.unsplash.com/photo-1574095431553-5f38cbf5d3c1?auto=format&fit=crop&q=80&w=800",
-      // },
-      // {
-      //   name: "EOT Crane – 25 Ton",
-      //   description: "Top-capacity EOT crane for extreme load handling",
-      //   liftingCapacity: "25 Ton",
-      //   specifications: [
-      //     "Single girder design",
-      //     "Material: Mild Steel",
-      //     "Main travel speed: 3 MPM",
-      //     "Cross travel (CT) speed: 11 MPM",
-      //     "Long travel (LT) speed: 15 MPM",
-      //     "Rotation: 360°, 180°, 90°",
-      //   ],
-      //   imageUrl:
-      //     "https://images.unsplash.com/photo-1574095431553-5f38cbf5d3c1?auto=format&fit=crop&q=80&w=800",
-      // },
-    ],
-  },
+  id: 6,
+  name: "EOT Cranes",
+  description:
+    "Electric Overhead Traveling (EOT) cranes with single or double girder options, designed for industrial lifting ranging from 1 to 500 tons.",
+  imageUrl: "/eot-crane.png",
+  form: EotReqForm,
+  products: [
+    {
+      name: "EOT Crane – 1 Ton to 500 Ton",
+      description: "Heavy-duty EOT cranes with single or double girder design for a wide range of industrial applications",
+      liftingCapacity: "1 Ton to 500 Ton",
+      specifications: [
+        "Available in Single Girder and Double Girder designs",
+        "Lifting height: 3m to 50m (customizable)",
+        "Material: Steel fabricated structure",
+        "Hoist type: Electric Wire Rope Hoist",
+        "Main hoist lifting speed: 3 to 8 m/min (VFD optional)",
+        "Trolley travel speed: 10 to 20 m/min",
+        "Bridge travel speed: 20 to 25 m/min",
+        "Motors: Squirrel cage induction motors with IP55 protection",
+        "Gearboxes: Helical type for smooth and efficient operation"
+      ],
+      imageUrl: "https://images.unsplash.com/photo-1574095431553-5f38cbf5d3c1?auto=format&fit=crop&q=80&w=800",
+    },
+  ],
+},
+
+  // {
+  //   id: 6,
+  //   name: "EOT Cranes",
+  //   description:
+  //     "Electric Overhead Traveling (EOT) cranes with single girder design for industrial lifting",
+  //   imageUrl: "/eot-crane.png",
+  //   form: EotReqForm,
+  //    products: [
+  //     {
+  //       name: "EOT Crane – 500 kg",
+  //       description: "Compact EOT crane suitable for lightweight applications",
+  //       liftingCapacity: "500 kg",
+  //       specifications: [
+  //         "Single girder design",
+  //         "Material: Mild Steel",
+  //         "Main travel speed: 3 MPM",
+  //         "Cross travel (CT) speed: 11 MPM",
+  //         "Long travel (LT) speed: 15 MPM",
+  //         "Rotation: 360°, 180°, 90°",
+  //       ],
+  //       imageUrl:
+  //         "https://images.unsplash.com/photo-1574095431553-5f38cbf5d3c1?auto=format&fit=crop&q=80&w=800",
+  //     },
+  //   ],
+  // },
   {
     id: 2,
     name: "Good Lifts Drum Weighted",
@@ -682,76 +634,76 @@ export const categories: Category[] = [
       },
     ],
   },
-  {
-    id: 5,
-    name: "Gantry Cranes",
-    description:
-      "Electric wire hoist gantry cranes with various lifting capacities and configurations",
-    imageUrl: "/img-placeholder.png",
-    form: GantryReqForm,
-    products: [
-      {
-        name: "L Type Single Girder crane",
-        description: "Compact EOT crane suitable for lightweight applications",
-        liftingCapacity: "1 Ton",
-        specifications: [
-          "Single girder design",
-          "Material: Mild Steel",
-          "Main travel speed: 3 MPM",
-          "Cross travel (CT) speed: 11 MPM",
-          "Long travel (LT) speed: 15 MPM",
-          "Rotation: 360°, 180°, 90°",
-        ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1574095431553-5f38cbf5d3c1?auto=format&fit=crop&q=80&w=800",
-      },
-      {
-        name: "MH Type Single Beam crane",
-        description: "Standard EOT crane for medium-load industrial use",
-        liftingCapacity: "2 Ton",
-        specifications: [
-          "Single girder design",
-          "Material: Mild Steel",
-          "Main travel speed: 3 MPM",
-          "Cross travel (CT) speed: 11 MPM",
-          "Long travel (LT) speed: 15 MPM",
-          "Rotation: 360°, 180°, 90°",
-        ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1574095431553-5f38cbf5d3c1?auto=format&fit=crop&q=80&w=800",
-      },
-      {
-        name: "MH Single Crane",
-        description: "Heavy-duty EOT crane for demanding operations",
-        liftingCapacity: "3 Ton",
-        specifications: [
-          "Single girder design",
-          "Material: Mild Steel",
-          "Main travel speed: 3 MPM",
-          "Cross travel (CT) speed: 11 MPM",
-          "Long travel (LT) speed: 15 MPM",
-          "Rotation: 360°, 180°, 90°",
-        ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1574095431553-5f38cbf5d3c1?auto=format&fit=crop&q=80&w=800",
-      },
-      {
-        name: "Portable Gantry Crane",
-        description: "Industrial-grade EOT crane for high-capacity lifting",
-        liftingCapacity: "5 Ton",
-        specifications: [
-          "Single girder design",
-          "Material: Mild Steel",
-          "Main travel speed: 3 MPM",
-          "Cross travel (CT) speed: 11 MPM",
-          "Long travel (LT) speed: 15 MPM",
-          "Rotation: 360°, 180°, 90°",
-        ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1574095431553-5f38cbf5d3c1?auto=format&fit=crop&q=80&w=800",
-      },
-    ],
-  },
+  // {
+  //   id: 5,
+  //   name: "Gantry Cranes",
+  //   description:
+  //     "Electric wire hoist gantry cranes with various lifting capacities and configurations",
+  //   imageUrl: "/img-placeholder.png",
+  //   form: GantryReqForm,
+  //   products: [
+  //     {
+  //       name: "L Type Single Girder crane",
+  //       description: "Compact EOT crane suitable for lightweight applications",
+  //       liftingCapacity: "1 Ton",
+  //       specifications: [
+  //         "Single girder design",
+  //         "Material: Mild Steel",
+  //         "Main travel speed: 3 MPM",
+  //         "Cross travel (CT) speed: 11 MPM",
+  //         "Long travel (LT) speed: 15 MPM",
+  //         "Rotation: 360°, 180°, 90°",
+  //       ],
+  //       imageUrl:
+  //         "https://images.unsplash.com/photo-1574095431553-5f38cbf5d3c1?auto=format&fit=crop&q=80&w=800",
+  //     },
+  //     {
+  //       name: "MH Type Single Beam crane",
+  //       description: "Standard EOT crane for medium-load industrial use",
+  //       liftingCapacity: "2 Ton",
+  //       specifications: [
+  //         "Single girder design",
+  //         "Material: Mild Steel",
+  //         "Main travel speed: 3 MPM",
+  //         "Cross travel (CT) speed: 11 MPM",
+  //         "Long travel (LT) speed: 15 MPM",
+  //         "Rotation: 360°, 180°, 90°",
+  //       ],
+  //       imageUrl:
+  //         "https://images.unsplash.com/photo-1574095431553-5f38cbf5d3c1?auto=format&fit=crop&q=80&w=800",
+  //     },
+  //     {
+  //       name: "MH Single Crane",
+  //       description: "Heavy-duty EOT crane for demanding operations",
+  //       liftingCapacity: "3 Ton",
+  //       specifications: [
+  //         "Single girder design",
+  //         "Material: Mild Steel",
+  //         "Main travel speed: 3 MPM",
+  //         "Cross travel (CT) speed: 11 MPM",
+  //         "Long travel (LT) speed: 15 MPM",
+  //         "Rotation: 360°, 180°, 90°",
+  //       ],
+  //       imageUrl:
+  //         "https://images.unsplash.com/photo-1574095431553-5f38cbf5d3c1?auto=format&fit=crop&q=80&w=800",
+  //     },
+  //     {
+  //       name: "Portable Gantry Crane",
+  //       description: "Industrial-grade EOT crane for high-capacity lifting",
+  //       liftingCapacity: "5 Ton",
+  //       specifications: [
+  //         "Single girder design",
+  //         "Material: Mild Steel",
+  //         "Main travel speed: 3 MPM",
+  //         "Cross travel (CT) speed: 11 MPM",
+  //         "Long travel (LT) speed: 15 MPM",
+  //         "Rotation: 360°, 180°, 90°",
+  //       ],
+  //       imageUrl:
+  //         "https://images.unsplash.com/photo-1574095431553-5f38cbf5d3c1?auto=format&fit=crop&q=80&w=800",
+  //     },
+  //   ],
+  // },
   {
     id: 7,
     name: "Power Winch Machines",
@@ -772,84 +724,6 @@ export const categories: Category[] = [
         imageUrl:
           "https://images.unsplash.com/photo-1572867022265-7429c8726e23?auto=format&fit=crop&q=80&w=800",
       },
-      // {
-      //   name: "PW-1000 Standard",
-      //   description: "Standard power winch for general use",
-      //   liftingCapacity: "Up to 1000 kg",
-      //   specifications: [
-      //     "Standard frame",
-      //     "Electric control",
-      //     "Enhanced safety",
-      //     "Semi-portable design",
-      //   ],
-      //   imageUrl:
-      //     "https://images.unsplash.com/photo-1572867022265-7429c8726e23?auto=format&fit=crop&q=80&w=800",
-      // },
-      // {
-      //   name: "PW-2000 Pro",
-      //   description: "Professional power winch for industrial use",
-      //   liftingCapacity: "Up to 2000 kg",
-      //   specifications: [
-      //     "Heavy-duty frame",
-      //     "Variable speed control",
-      //     "Advanced safety features",
-      //     "Stationary mount",
-      //   ],
-      //   imageUrl:
-      //     "https://images.unsplash.com/photo-1572867022265-7429c8726e23?auto=format&fit=crop&q=80&w=800",
-      // },
-      // {
-      //   name: "PW-3000 Industrial",
-      //   description: "Industrial power winch for heavy applications",
-      //   liftingCapacity: "Up to 3000 kg",
-      //   specifications: [
-      //     "Industrial grade construction",
-      //     "Smart control system",
-      //     "Comprehensive safety",
-      //     "Remote operation",
-      //   ],
-      //   imageUrl:
-      //     "https://images.unsplash.com/photo-1572867022265-7429c8726e23?auto=format&fit=crop&q=80&w=800",
-      // },
-      // {
-      //   name: "PW-5000 Heavy",
-      //   description: "Heavy-duty power winch for demanding tasks",
-      //   liftingCapacity: "Up to 5000 kg",
-      //   specifications: [
-      //     "Reinforced construction",
-      //     "Advanced control interface",
-      //     "Premium safety package",
-      //     "Multiple mounting options",
-      //   ],
-      //   imageUrl:
-      //     "https://images.unsplash.com/photo-1572867022265-7429c8726e23?auto=format&fit=crop&q=80&w=800",
-      // },
-      // {
-      //   name: "PW-7500 Ultra",
-      //   description: "Ultra-capacity power winch for specialized use",
-      //   liftingCapacity: "Up to 7500 kg",
-      //   specifications: [
-      //     "Ultra-duty components",
-      //     "Computerized control",
-      //     "Advanced safety system",
-      //     "Custom installation",
-      //   ],
-      //   imageUrl:
-      //     "https://images.unsplash.com/photo-1572867022265-7429c8726e23?auto=format&fit=crop&q=80&w=800",
-      // },
-      // {
-      //   name: "PW-10000 Mega",
-      //   description: "Mega-capacity power winch for extreme applications",
-      //   liftingCapacity: "Up to 10000 kg",
-      //   specifications: [
-      //     "Custom-engineered system",
-      //     "Smart automation",
-      //     "Comprehensive monitoring",
-      //     "Industrial-grade reliability",
-      //   ],
-      //   imageUrl:
-      //     "https://images.unsplash.com/photo-1572867022265-7429c8726e23?auto=format&fit=crop&q=80&w=800",
-      // },
     ],
   },
 ];
