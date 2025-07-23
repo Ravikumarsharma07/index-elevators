@@ -1,6 +1,7 @@
 import { Category } from "@/lib/types";
 import EotReqForm from "@/components/home/EotReqForm";
 import PowerWinchReqForm from "@/components/home/PowerWinchReqForm";
+import WireHoistForm from "@/components/home/wireHoistReqForm";
 export const categories: Category[] = [
   {
     id: 1,
@@ -8,6 +9,7 @@ export const categories: Category[] = [
     description:
       "Reliable wire hoists with end carriage for precise, heavy-duty lifting.",
     imageUrl: "/electric-wire-hoist.png",
+    form:WireHoistForm,
     products: [
       {
         name: "1 TON ELECTRICAL WIRE HOIST",
@@ -141,6 +143,7 @@ export const categories: Category[] = [
     description:
       "Reliable wire hoists with end carriage for precise, heavy-duty lifting.",
     imageUrl: "/electric-wire-hoist.jpg",
+    form:WireHoistForm,
     products: [
       {
         name: "1 TON ELECTRICAL WIRE HOIST",
@@ -704,26 +707,27 @@ export const categories: Category[] = [
   //     },
   //   ],
   // },
-  {
-    id: 7,
-    name: "Power Winch Machines",
-    description: "Powerful winch solutions for various applications",
-    imageUrl: "/img-placeholder.png",
-    form: PowerWinchReqForm,
-    products: [
-      {
-        name: "PW-500 Compact",
-        description: "Compact power winch for light-duty applications",
-        liftingCapacity: "Up to 500 kg",
-        specifications: [
-          "Compact design",
-          "Manual control",
-          "Basic safety features",
-          "Portable construction",
-        ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1572867022265-7429c8726e23?auto=format&fit=crop&q=80&w=800",
-      },
-    ],
-  },
+{
+  id: 7,
+  name: "Power Winch Machines",
+  description: "Steel-fabricated power winch machines with high rope winding capacity, suitable for lifting up to 30 tons.",
+  imageUrl: "/img-placeholder.png",
+  form: PowerWinchReqForm,
+  products: [
+    {
+      name: "PW-Series – 1 Ton to 30 Ton",
+      description: "Heavy-duty power winch machines with steel construction and seamless drum for industrial lifting operations.",
+      liftingCapacity: "1 Ton to 30 Ton",
+      specifications: [
+        "Winding capacity: 10 m to 1000 m of rope",
+        "Lifting speed: 3 to 15 m/min",
+        "Material: Steel fabricated structure",
+        "Drum: Seamless pipe construction",
+        "Brake: Electromagnetic or electro-hydraulic thruster brakes",
+        "Motor and Gearbox: Durable and robust system"
+      ],
+      imageUrl: "https://images.unsplash.com/photo-1572867022265-7429c8726e23?auto=format&fit=crop&q=80&w=800",
+    },
+  ],
+}
 ];
