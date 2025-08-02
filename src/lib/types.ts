@@ -4,12 +4,13 @@ export interface ScriptProps {
   setIsDialogOpen: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-interface Product{
+export interface Product{
   name: string,
   description: string,
   liftingCapacity: string,
   specifications: string[],
-  imageUrl:string 
+  imageUrl:string,
+  images?:string[]
 }
 
 export interface Category {

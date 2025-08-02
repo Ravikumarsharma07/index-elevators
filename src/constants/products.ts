@@ -8,8 +8,8 @@ export const categories: Category[] = [
     name: "Electrical Wire Hoists single girder",
     description:
       "Reliable wire hoists with end carriage for precise, heavy-duty lifting.",
-    imageUrl: "/electric-wire-hoist.png",
-    form:WireHoistForm,
+    imageUrl: "/electrical-wire-hoist-2.jpg",
+    form: WireHoistForm,
     products: [
       {
         name: "1 TON ELECTRICAL WIRE HOIST",
@@ -26,8 +26,8 @@ export const categories: Category[] = [
           "Wire Rope – 10 MM",
           "No. of Fall – 2",
         ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1635048424329-a9bfb146d7aa?auto=format&fit=crop&q=80&w=800",
+        imageUrl: "/electric-wire-hoist.png",
+        images:["/electric-wire-hoist.png", "/electrical-wire-hoist-2.jpg","/electrical-wire-hoist-3.jpg","/electrical-wire-hoist-4.jpg",]
       },
       {
         name: "2 TON ELECTRICAL WIRE HOIST",
@@ -44,8 +44,7 @@ export const categories: Category[] = [
           "Wire Rope – 8 MM",
           "No. of Fall – 4",
         ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1635048424329-a9bfb146d7aa?auto=format&fit=crop&q=80&w=800",
+        imageUrl: "/electrical-wire-hoist-1.jpg",
       },
       {
         name: "3 TON ELECTRICAL WIRE HOIST",
@@ -62,8 +61,7 @@ export const categories: Category[] = [
           "Wire Rope – 10 MM",
           "No. of Fall – 4",
         ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1635048424329-a9bfb146d7aa?auto=format&fit=crop&q=80&w=800",
+                imageUrl: "/electrical-wire-hoist-2.jpg",
       },
       {
         name: "5 TON ELECTRICAL WIRE HOIST",
@@ -79,8 +77,7 @@ export const categories: Category[] = [
           "Wire Rope – 12 MM",
           "No. of Fall – 4",
         ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1635048424329-a9bfb146d7aa?auto=format&fit=crop&q=80&w=800",
+                imageUrl: "/electrical-wire-hoist-3.jpg",
       },
       {
         name: "7.5 TON ELECTRICAL WIRE HOIST",
@@ -96,8 +93,7 @@ export const categories: Category[] = [
           "Wire Rope – 14 MM",
           "No. of Fall – 4",
         ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1635048424329-a9bfb146d7aa?auto=format&fit=crop&q=80&w=800",
+               imageUrl: "/electrical-wire-hoist-4.jpg",
       },
       {
         name: "10 TON ELECTRICAL WIRE HOIST",
@@ -114,8 +110,7 @@ export const categories: Category[] = [
           "Wire Rope – 16 MM",
           "No. of Fall – 4",
         ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1635048424329-a9bfb146d7aa?auto=format&fit=crop&q=80&w=800",
+              imageUrl: "/electrical-wire-hoist-5.jpg",
       },
       {
         name: "15 TON ELECTRICAL WIRE HOIST",
@@ -132,8 +127,7 @@ export const categories: Category[] = [
           "Wire Rope – 16 MM",
           "No. of Fall – 6",
         ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1635048424329-a9bfb146d7aa?auto=format&fit=crop&q=80&w=800",
+              imageUrl: "/electrical-wire-hoist-6.jpg",
       },
     ],
   },
@@ -142,8 +136,8 @@ export const categories: Category[] = [
     name: "Electrical Wire Hoists double girder",
     description:
       "Reliable wire hoists with end carriage for precise, heavy-duty lifting.",
-    imageUrl: "/electric-wire-hoist.jpg",
-    form:WireHoistForm,
+    imageUrl: "/electric-wire-hoist.png",
+    form: WireHoistForm,
     products: [
       {
         name: "1 TON ELECTRICAL WIRE HOIST",
@@ -160,8 +154,9 @@ export const categories: Category[] = [
           "Wire Rope – 10 MM",
           "No. of Fall – 2",
         ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1635048424329-a9bfb146d7aa?auto=format&fit=crop&q=80&w=800",
+               imageUrl: "/electric-wire-hoist.png",
+        images:["/electric-wire-hoist.png", "/electrical-wire-hoist-2.jpg","/electrical-wire-hoist-3.jpg","/electrical-wire-hoist-4.jpg",]
+
       },
       {
         name: "2 TON ELECTRICAL WIRE HOIST",
@@ -178,8 +173,7 @@ export const categories: Category[] = [
           "Wire Rope – 8 MM",
           "No. of Fall – 4",
         ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1635048424329-a9bfb146d7aa?auto=format&fit=crop&q=80&w=800",
+        imageUrl: "/electrical-wire-hoist-1.jpg",
       },
       {
         name: "3 TON ELECTRICAL WIRE HOIST",
@@ -196,8 +190,7 @@ export const categories: Category[] = [
           "Wire Rope – 10 MM",
           "No. of Fall – 4",
         ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1635048424329-a9bfb146d7aa?auto=format&fit=crop&q=80&w=800",
+        imageUrl: "/electrical-wire-hoist-2.jpg",
       },
       {
         name: "5 TON ELECTRICAL WIRE HOIST",
@@ -213,8 +206,7 @@ export const categories: Category[] = [
           "Wire Rope – 12 MM",
           "No. of Fall – 4",
         ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1635048424329-a9bfb146d7aa?auto=format&fit=crop&q=80&w=800",
+        imageUrl: "/electrical-wire-hoist-3.jpg",
       },
       {
         name: "7.5 TON ELECTRICAL WIRE HOIST",
@@ -230,8 +222,7 @@ export const categories: Category[] = [
           "Wire Rope – 14 MM",
           "No. of Fall – 4",
         ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1635048424329-a9bfb146d7aa?auto=format&fit=crop&q=80&w=800",
+        imageUrl: "/electrical-wire-hoist-4.jpg",
       },
       {
         name: "10 TON ELECTRICAL WIRE HOIST",
@@ -248,8 +239,7 @@ export const categories: Category[] = [
           "Wire Rope – 16 MM",
           "No. of Fall – 4",
         ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1635048424329-a9bfb146d7aa?auto=format&fit=crop&q=80&w=800",
+         imageUrl: "/electrical-wire-hoist-5.jpg",
       },
       {
         name: "15 TON ELECTRICAL WIRE HOIST",
@@ -266,70 +256,45 @@ export const categories: Category[] = [
           "Wire Rope – 16 MM",
           "No. of Fall – 6",
         ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1635048424329-a9bfb146d7aa?auto=format&fit=crop&q=80&w=800",
+        imageUrl: "/electrical-wire-hoist-6.jpg",
       },
     ],
   },
   {
-  id: 6,
-  name: "EOT Cranes",
-  description:
-    "Electric Overhead Traveling (EOT) cranes with single or double girder options, designed for industrial lifting ranging from 1 to 500 tons.",
-  imageUrl: "/eot-crane.png",
-  form: EotReqForm,
-  products: [
-    {
-      name: "EOT Crane – 1 Ton to 500 Ton",
-      description: "Heavy-duty EOT cranes with single or double girder design for a wide range of industrial applications",
-      liftingCapacity: "1 Ton to 500 Ton",
-      specifications: [
-        "Available in Single Girder and Double Girder designs",
-        "Lifting height: 3m to 50m (customizable)",
-        "Material: Steel fabricated structure",
-        "Hoist type: Electric Wire Rope Hoist",
-        "Main hoist lifting speed: 3 to 8 m/min (VFD optional)",
-        "Trolley travel speed: 10 to 20 m/min",
-        "Bridge travel speed: 20 to 25 m/min",
-        "Motors: Squirrel cage induction motors with IP55 protection",
-        "Gearboxes: Helical type for smooth and efficient operation"
-      ],
-      imageUrl: "https://images.unsplash.com/photo-1574095431553-5f38cbf5d3c1?auto=format&fit=crop&q=80&w=800",
-    },
-  ],
-},
-
-  // {
-  //   id: 6,
-  //   name: "EOT Cranes",
-  //   description:
-  //     "Electric Overhead Traveling (EOT) cranes with single girder design for industrial lifting",
-  //   imageUrl: "/eot-crane.png",
-  //   form: EotReqForm,
-  //    products: [
-  //     {
-  //       name: "EOT Crane – 500 kg",
-  //       description: "Compact EOT crane suitable for lightweight applications",
-  //       liftingCapacity: "500 kg",
-  //       specifications: [
-  //         "Single girder design",
-  //         "Material: Mild Steel",
-  //         "Main travel speed: 3 MPM",
-  //         "Cross travel (CT) speed: 11 MPM",
-  //         "Long travel (LT) speed: 15 MPM",
-  //         "Rotation: 360°, 180°, 90°",
-  //       ],
-  //       imageUrl:
-  //         "https://images.unsplash.com/photo-1574095431553-5f38cbf5d3c1?auto=format&fit=crop&q=80&w=800",
-  //     },
-  //   ],
-  // },
+    id: 6,
+    name: "EOT Cranes",
+    description:
+      "Electric Overhead Traveling (EOT) cranes with single or double girder options, designed for industrial lifting ranging from 1 to 500 tons.",
+    imageUrl: "/eot-crane.png",
+    form: EotReqForm,
+    products: [
+      {
+        name: "EOT Crane – 1 Ton to 500 Ton",
+        description:
+          "Heavy-duty EOT cranes with single or double girder design for a wide range of industrial applications",
+        liftingCapacity: "1 Ton to 500 Ton",
+        specifications: [
+          "Available in Single Girder and Double Girder designs",
+          "Lifting height: 3m to 50m (customizable)",
+          "Material: Steel fabricated structure",
+          "Hoist type: Electric Wire Rope Hoist",
+          "Main hoist lifting speed: 3 to 8 m/min (VFD optional)",
+          "Trolley travel speed: 10 to 20 m/min",
+          "Bridge travel speed: 20 to 25 m/min",
+          "Motors: Squirrel cage induction motors with IP55 protection",
+          "Gearboxes: Helical type for smooth and efficient operation",
+        ],
+        imageUrl: "/eot-crane.png",
+        images: ["/eot-crane.png", "/eot-1.jpg", "/eot-2.jpg", "/eot-3.jpg"],
+      },
+    ],
+  },
   {
     id: 2,
     name: "Good Lifts Drum Weighted",
     description:
       "Reliable drum weighting lifts for industrial material handling tasks",
-    imageUrl: "/img-placeholder.png",
+    imageUrl: "/good-lifts-1.png",
     products: [
       {
         name: "1 TON DRUM WEIGHTED LIFT",
@@ -345,8 +310,8 @@ export const categories: Category[] = [
           "Rope Wire – 10 MM",
           "Lift – 15 MTR",
         ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80&w=800",
+        imageUrl: "/good-lifts-5.png",
+        images:["/good-lifts-5.png","/good-lifts-2.png","/good-lifts-3.png",]
       },
       {
         name: "2 TON DRUM WEIGHTED LIFT",
@@ -362,8 +327,7 @@ export const categories: Category[] = [
           "Rope Wire – 12 MM",
           "Lift – 15 MTR",
         ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80&w=800",
+        imageUrl: "/good-lifts-4.png",
       },
       {
         name: "3 TON DRUM WEIGHTED LIFT",
@@ -379,8 +343,7 @@ export const categories: Category[] = [
           "Rope Wire – 13 MM",
           "Lift – 15 MTR",
         ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80&w=800",
+        imageUrl: "/good-lifts-3.png",
       },
       {
         name: "5 TON DRUM WEIGHTED LIFT",
@@ -396,8 +359,7 @@ export const categories: Category[] = [
           "Rope Wire – 14 MM",
           "Lift – 15 MTR",
         ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80&w=800",
+        imageUrl: "/good-lifts-2.png",
       },
       {
         name: "7.5 TON DRUM WEIGHTED LIFT",
@@ -413,8 +375,7 @@ export const categories: Category[] = [
           "Rope Wire – 10 MM",
           "Lift – 15 MTR",
         ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80&w=800",
+        imageUrl: "/good-lifts-1.png",
       },
       {
         name: "10 TON DRUM WEIGHTED LIFT",
@@ -429,8 +390,7 @@ export const categories: Category[] = [
           "Rope Wire – 18 MM",
           "Lift – 15 MTR",
         ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80&w=800",
+        imageUrl: "/good-lifts-5.png",
       },
     ],
   },
@@ -439,7 +399,7 @@ export const categories: Category[] = [
     name: "Monkey Hoists",
     description:
       "Versatile and portable hoisting solutions for construction and lifting",
-    imageUrl: "/img-placeholder.png",
+    imageUrl: "/monkey-hoist-1.jpg",
     products: [
       {
         name: "Model 1200",
@@ -456,8 +416,8 @@ export const categories: Category[] = [
           "Rotation – 360°",
           "Wheel Barrow – 2 Piece",
         ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&q=80&w=800",
+           imageUrl: "/monkey-hoist-1.jpg",
+           images:["/monkey-hoist-1.jpg","/monkey-hoist-2.jpg","/monkey-hoist-3.jpg",]
       },
       {
         name: "Model 1206",
@@ -475,8 +435,7 @@ export const categories: Category[] = [
           "Rotation – 360°",
           "Wheel Barrow – 2 Piece",
         ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&q=80&w=800",
+         imageUrl: "/monkey-hoist-2.jpg",
       },
       {
         name: "Model 1323",
@@ -494,8 +453,7 @@ export const categories: Category[] = [
           "Rotation – 360°",
           "Wheel Barrow – 2 Piece",
         ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&q=80&w=800",
+          imageUrl: "/monkey-hoist-3.jpg",
       },
       {
         name: "Model 1342",
@@ -513,8 +471,7 @@ export const categories: Category[] = [
           "Rotation – 360°",
           "Wheel Barrow – 2 Piece",
         ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&q=80&w=800",
+     imageUrl: "/monkey-hoist-1.jpg",
       },
       {
         name: "Model 1345",
@@ -532,8 +489,7 @@ export const categories: Category[] = [
           "Rotation – 360°",
           "Wheel Barrow – 2 Piece",
         ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&q=80&w=800",
+          imageUrl: "/monkey-hoist-2.jpg",
       },
       {
         name: "Model 1345 DLX",
@@ -551,8 +507,7 @@ export const categories: Category[] = [
           "Rotation – 360°",
           "Wheel Barrow – 2 Piece",
         ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&q=80&w=800",
+       imageUrl: "/monkey-hoist-3.jpg",
       },
     ],
   },
@@ -561,7 +516,7 @@ export const categories: Category[] = [
     name: "Jib Cranes",
     description:
       "Flexible and efficient jib crane systems for industrial lifting",
-    imageUrl: "/img-placeholder.png",
+    imageUrl: "/jib-crane-1.jpg",
     products: [
       {
         name: "JIB-500",
@@ -578,8 +533,8 @@ export const categories: Category[] = [
           "Type – Single Girder",
           "Rotation – 90° to 360°",
         ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1565619624098-cf4168a7cd9d?auto=format&fit=crop&q=80&w=800",
+           imageUrl: "/jib-crane-3.jpg",
+           images:["/jib-crane-3.jpg","/jib-crane-2.jpg","/jib-crane-1.jpg",]
       },
       {
         name: "JIB-1000",
@@ -596,8 +551,7 @@ export const categories: Category[] = [
           "Type – Single Girder",
           "Rotation – 90° to 360°",
         ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1565619624098-cf4168a7cd9d?auto=format&fit=crop&q=80&w=800",
+        imageUrl: "/jib-crane-1.jpg",
       },
       {
         name: "JIB-2000",
@@ -614,8 +568,7 @@ export const categories: Category[] = [
           "Type – Single Girder",
           "Rotation – 90° to 360°",
         ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1565619624098-cf4168a7cd9d?auto=format&fit=crop&q=80&w=800",
+          imageUrl: "/jib-crane-2.jpg",
       },
       {
         name: "JIB-3000",
@@ -632,8 +585,7 @@ export const categories: Category[] = [
           "Type – Single Girder",
           "Rotation – 90° to 360°",
         ],
-        imageUrl:
-          "https://images.unsplash.com/photo-1565619624098-cf4168a7cd9d?auto=format&fit=crop&q=80&w=800",
+           imageUrl: "/jib-crane-3.jpg",
       },
     ],
   },
@@ -707,27 +659,36 @@ export const categories: Category[] = [
   //     },
   //   ],
   // },
-{
-  id: 7,
-  name: "Power Winch Machines",
-  description: "Steel-fabricated power winch machines with high rope winding capacity, suitable for lifting up to 30 tons.",
-  imageUrl: "/img-placeholder.png",
-  form: PowerWinchReqForm,
-  products: [
-    {
-      name: "PW-Series – 1 Ton to 30 Ton",
-      description: "Heavy-duty power winch machines with steel construction and seamless drum for industrial lifting operations.",
-      liftingCapacity: "1 Ton to 30 Ton",
-      specifications: [
-        "Winding capacity: 10 m to 1000 m of rope",
-        "Lifting speed: 3 to 15 m/min",
-        "Material: Steel fabricated structure",
-        "Drum: Seamless pipe construction",
-        "Brake: Electromagnetic or electro-hydraulic thruster brakes",
-        "Motor and Gearbox: Durable and robust system"
-      ],
-      imageUrl: "https://images.unsplash.com/photo-1572867022265-7429c8726e23?auto=format&fit=crop&q=80&w=800",
-    },
-  ],
-}
+  {
+    id: 7,
+    name: "Power Winch Machines",
+    description:
+      "Steel-fabricated power winch machines with high rope winding capacity, suitable for lifting up to 30 tons.",
+    imageUrl: "/power-winch-3.png",
+    form: PowerWinchReqForm,
+    products: [
+      {
+        name: "PW-Series – 1 Ton to 30 Ton",
+        description:
+          "Heavy-duty power winch machines with steel construction and seamless drum for industrial lifting operations.",
+        liftingCapacity: "1 Ton to 30 Ton",
+        specifications: [
+          "Winding capacity: 10 m to 1000 m of rope",
+          "Lifting speed: 3 to 15 m/min",
+          "Material: Steel fabricated structure",
+          "Drum: Seamless pipe construction",
+          "Brake: Electromagnetic or electro-hydraulic thruster brakes",
+          "Motor and Gearbox: Durable and robust system",
+        ],
+        imageUrl: "/power-winch-5.png",
+        images: [
+          "/power-winch-5.png",
+          "/power-winch-6.png",
+          "/power-winch-2.png",
+          "/power-winch-3.png",
+          "/power-winch-4.png",
+        ],
+      },
+    ],
+  },
 ];
